@@ -1,3 +1,5 @@
+package testsCodes
+
 object RunCodes {
   def runCodes(): Unit = {
     val animalsList: List[String] = List("cat", "dog", "fish", "bird", "mouse")

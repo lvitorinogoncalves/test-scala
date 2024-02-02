@@ -1,8 +1,10 @@
-@main
-def main(): Unit = {
-  println("Teste")
+import testsCodes.{RunCodes, TransformData}
 
-//  RunCodes.runCodes()
-  val transformData = new TransformData
-  transformData.readAndTransformData()
+object main {
+  def main(agrs: Array[String]): Unit = {
+    println("API-Scala")
+    RunCodes.runCodes()
+    val transformData = new TransformData
+    transformData.readAndTransformData()
+  }
 }

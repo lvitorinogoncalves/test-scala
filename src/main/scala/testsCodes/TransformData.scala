@@ -1,5 +1,7 @@
-import scala.io.Source
+package testsCodes
+
 import java.io.PrintWriter
+import scala.io.Source
 class TransformData {
   def readAndTransformData(): Unit = {
     val inputFile = "input.csv"
